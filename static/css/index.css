@@ -1,0 +1,114 @@
+:root {
+    --light-shades: #F3F6F5;
+    --light-accent: #7F868B;
+    --main-brand-color:#E09696,
+    --dark-accent:#B63C52,
+    --dark shades:#291F33
+  }
+
+* {
+  margin: 0;
+  padding: 0%;
+  box-sizing: border-box;
+  outline: 0;
+}
+
+body {
+  background: #ffffff;
+  color: #db6362;
+  -wekit-font-smoothing: antialiased;
+}
+
+body,
+input,
+button {
+  font-family: "Roboto Slab", serif;
+  font-size: 16px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+strong {
+  font-weight: 500;
+}
+
+button {
+  cursor: pointer;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  align-items: stretch;
+}
+
+.container .content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  place-content: center;
+  width: 100%;
+  max-width: 700px;
+  margin: 32px 0;
+}
+
+.container .content form {
+  margin: 40px 0;
+  width: 340px;
+  text-align: center;
+  margin: 0px;
+  
+}
+
+.container .content form h4 {
+  margin-bottom: 24px;
+  margin-top: 15px;
+}
+
+
+
+.container .content form a {
+  background: #DD6363;
+  height: 60px;
+  border-radius: 10px;
+  border: 0;
+  width: 100%;
+  color: #ffffff;
+  font-weight: 500;
+  margin-top: 35px;
+  transition: background-color 0.2ms;
+  padding: 14px 25px;
+  text-align: center;
+  font-size: 1.2rem;
+  
+}
+
+
+
+.container .content form a:hover {
+  background:#9c4747 ;
+}
+
+.container .content form a {
+  color: #faede8;
+  display: block;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.container .content form a ::placeholder {
+  color: #666360
+}
+
+
+
+.container .background {
+  flex: 1;
+  background: url("foto_girlcording.png") no-repeat center;
+  background-size: cover;
+  object-fit: contain;
+}

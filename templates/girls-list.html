@@ -1,0 +1,156 @@
+{% extends 'layout.html' %}
+
+{% block styles %}
+<link rel="stylesheet" href="/static/css/girls-list.css" />
+<link rel="stylesheet" href="/static/css/header.css" />
+<script src="https://kit.fontawesome.com/c5620dc914.js" crossorigin="anonymous"></script>
+{% endblock %}
+
+{% block content %}
+<div class="girls-list-page">
+  {% include 'header.html' %}
+
+  <div class="select-techs">
+    <h3> Procura profissionais especialista em: </h3>
+    <div class="btns-container">
+      <a id="dataScience" class="no-selected" href="/recrutar/datascience">Data Science</a>
+      <a id="web" class="no-selected" href="/recrutar/web">Web</a>
+      <a id="iot" class="no-selected" href="/recrutar/iot">IoT</a>
+      <a id="todas" class="no-selected" href="/recrutar/todas">Todas</a>
+    </div>
+  </div>
+
+
+  <div class="list-container">
+    <div class="card-list-container">
+
+      {% for girl in girls %}
+      <div class="card">
+        <div class="card-body">
+          <img src="/static/img/{{girl.avatar}}" alt="{{girls.name}}">
+          <div class="girl-description">
+            <p><strong>{{girl.name}}</strong> <span>{{girl.email}}</span></p>
+            <p>Interações: <span class="interations">{{girl.interacao}}</span></p>
+            <p><i class="fas fa-heart"></i> 12</p>
+          </div>
+        </div>
+        <div class="card-footer">
+          <p><i class="far fa-envelope"></i> joana.tech@gmail.com</p>
+        </div>
+      </div>
+      {% endfor %}
+
+
+      <!--
+
+
+      <div class="card">
+        <div class="card-body">
+          <img src="/static/img/girls (1).jpg" alt="Dora">
+          <div class="girl-description">
+            <p><strong>Joana</strong> <span>@jojoTelegram</span></p>
+            <p>Interações: <span class="interations">314</span></p>
+            <p><i class="fas fa-heart"></i> 12</p>
+          </div>
+        </div>
+        <div class="card-footer">
+          <p><i class="far fa-envelope"></i> joana.tech@gmail.com</p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-body">
+          <img src="/static/img/girls (2).jpg" alt="Dora">
+          <div class="girl-description">
+            <p><strong>Joana</strong> <span>@jojoTelegram</span></p>
+            <p>Interações: <span class="interations">314</span></p>
+            <p><i class="fas fa-heart"></i> 12</p>
+          </div>
+        </div>
+        <div class="card-footer">
+          <p><i class="far fa-envelope"></i> joana.tech@gmail.com</p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-body">
+          <img src="/static/img/girls (3).jpg" alt="Dora">
+          <div class="girl-description">
+            <p><strong>Joana</strong> <span>@jojoTelegram</span></p>
+            <p>Interações: <span class="interations">314</span></p>
+            <p><i class="fas fa-heart"></i> 12</p>
+          </div>
+        </div>
+        <div class="card-footer">
+          <p><i class="far fa-envelope"></i> joana.tech@gmail.com</p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-body">
+          <img src="/static/img/girls (4).jpg" alt="Dora">
+          <div class="girl-description">
+            <p><strong>Joana</strong> <span>@jojoTelegram</span></p>
+            <p>Interações: <span class="interations">314</span></p>
+            <p><i class="fas fa-heart"></i> 12</p>
+          </div>
+        </div>
+        <div class="card-footer">
+          <p><i class="far fa-envelope"></i> joana.tech@gmail.com</p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-body">
+          <img src="/static/img/girls (6).jpg" alt="Dora">
+          <div class="girl-description">
+            <p><strong>Joana</strong> <span>@jojoTelegram</span></p>
+            <p>Interações: <span class="interations">314</span></p>
+            <p><i class="fas fa-heart"></i> 12</p>
+          </div>
+        </div>
+        <div class="card-footer">
+          <p><i class="far fa-envelope"></i> joana.tech@gmail.com</p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-body">
+          <img src="/static/img/girls (5).jpg" alt="Dora">
+          <div class="girl-description">
+            <p><strong>Joana</strong> <span>@jojoTelegram</span></p>
+            <p>Interações: <span class="interations">314</span></p>
+            <p><i class="fas fa-heart"></i> 12</p>
+          </div>
+        </div>
+
+        <div class="card-footer">
+          <p><i class="far fa-envelope"></i> joana.tech@gmail.com</p>
+        </div>
+      </div>-->
+    </div>
+  </div>
+
+
+
+
+
+
+
+</div>
+
+<script>
+  const techs = ['web', 'iot', 'dataScience', 'todas'];
+
+  function alertButton(btn) {
+
+    techs.forEach(tech => {
+      const noTargetTech = document.getElementById(tech);
+      noTargetTech.classList.add('no-selected');
+    })
+
+    const targetTech = document.getElementById(btn.id);
+    targetTech.classList.add('selected');
+    targetTech.classList.remove('no-selected');
+  }
+
+  techs.forEach(tech => {
+    document.getElementById(tech).addEventListener('click', (event) => alertButton(event.target));
+  })
+</script>
+{% endblock %}

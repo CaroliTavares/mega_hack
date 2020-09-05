@@ -1,0 +1,39 @@
+:root {
+  --primary-color: #e19595;
+  --secondary-color: #f9f8f8;
+  --dark-accent: #9e5556;
+  --dark-shade: #3f4c6a;
+}
+
+* {
+  margin: 0;
+  padding: 0%;
+  box-sizing: border-box;
+  outline: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  -wekit-font-smoothing: antialiased;
+  background: #f9f8f8;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+}
+
+.button {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  cursor: pointer;
+}

@@ -1,0 +1,138 @@
+.girls-list-page .select-techs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: var(--primary-color);
+  color: var(--secondary-color);
+  padding: 8px;
+}
+
+.girls-list-page .select-techs .btns-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 8px;
+  justify-content: center;
+  margin-top: 8px;
+}
+.girls-list-page .select-techs .btns-container a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  text-decoration: none;
+  color: var(--secondary-color);
+  padding: 4px 8px;
+  border-radius: 16px;
+  transition: background 400ms;
+  transition: border 400ms;
+}
+
+.girls-list-page .select-techs .btns-container a:hover {
+  border: 2px solid #9e5556;
+}
+
+.selected {
+  background: #9e5556;
+  transition: background 400ms;
+  border: 2px solid #9e5556;
+}
+
+.no-selected {
+  background: #e0abab;
+  transition: background 400ms;
+  border: 2px solid #e0abab;
+}
+
+.girls-list-page .list-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+  min-height: calc(100vh - 145px);
+}
+
+.girls-list-page .list-container .card-list-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
+@media (max-width: 700px) {
+  .girls-list-page .list-container .card-list-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .girls-list-page .list-container .card-list-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .girls-list-page .select-techs .btns-container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+  }
+}
+
+.girls-list-page .list-container .card-list-container .card {
+  background: #efefef;
+  padding: 16px 32px 4px 16px;
+  border-radius: 16px;
+  box-shadow: 1px 2px 2px -1px rgba(0, 0, 0, 0.2);
+}
+
+.girls-list-page .list-container .card-list-container .card .card-body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.girl-description p span {
+  font-size: 12px;
+}
+
+.girl-description p {
+  margin-bottom: 4px;
+}
+
+.girl-description p + p {
+  font-size: 12px;
+}
+
+.girl-description p:last-child {
+  margin-top: 16px;
+  color: #e0abab;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.card-body span.interations,
+.card-body span {
+  color: #e0abab;
+}
+
+.card-body span.interations {
+  font-weight: 700;
+}
+
+.card-body i {
+  color: #e0abab;
+  font-size: 16px;
+}
+
+.card img {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  border: 1px solid #d4d4d4;
+  margin-right: 16px;
+  object-fit: cover;
+}
+
+.card-footer {
+  margin-top: 16px;
+  border-top: 1px solid #b6b6b6;
+  color: #b6b6b6;
+  font-size: 12px;
+  line-height: 22px;
+}

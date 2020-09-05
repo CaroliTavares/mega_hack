@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>PandoraInsights</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="{{url_for('static', filename='css/index.css')}}">
+
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="content">
+
+            <img src="/static/img/pandora.svg" alt="PandoraInsights" />
+
+            <form>
+                <a href="/profissional" class="button-container">Profissional</a>
+                <a href="/mentor" class="button-container">Mentor</a>
+                <a href="{{url_for('recrutar_tech', tech='todas')}}" class="button-container">Recrutador</a>
+
+                <h4>Venha fazer parte de uma comunidade colaborativa que empodera mulheres no mercado tech!</h4>
+            </form>
+        </div>
+
+        <div class="background">
+
+        </div>
+    </div>
+
+</body>
+
+</html>

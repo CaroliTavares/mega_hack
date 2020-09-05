@@ -1,0 +1,24 @@
+{% extends 'layout.html' %}
+
+{% block styles %}
+<link rel="stylesheet" href="{{url_for('static', filename='css/telegram-redirect.css')}}">
+<link rel="stylesheet" href="/static/css/header.css" />
+{% endblock %}
+
+{% block content %}
+<div class="telegram-redirect-page">
+  {% include 'header.html' %}
+
+  <div class="are-you-ready">
+    <h3>Seja bem vindo!</h3>
+  </div>
+
+  <div class="card-container">
+    <img src="/static/img/dora.jpg" alt="Dora">
+    <h4>Oi, sou a Dora!</h4>
+    <p>Vou te direcionar nessa jornada. Aqui você pode contribuir com o direncionamento de várias mulheres na área de
+      tecnologia</p>
+    <a href="https://t.me/MadrisBot">Fale comigo!</a>
+  </div>
+</div>
+{% endblock %}
