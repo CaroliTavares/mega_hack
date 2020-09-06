@@ -37,3 +37,7 @@ h6 {
   letter-spacing: 3px;
   cursor: pointer;
 }
+
+a:active {
+  color: #fff;
+} /* Selected link   */

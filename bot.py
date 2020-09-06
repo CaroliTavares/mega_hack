@@ -8,7 +8,7 @@ import requests
 import json
 
 tkn = '1252935213:AAG0QlCDGVaWxXWHe6TJxKqutqd5NhoXqg8'
-BASE_URL = 'http://localhost:5000'
+BASE_URL = 'https://megawomen.herokuapp.com/'
 
 # Criando o objeto bot com o token definido
 bot = telebot.TeleBot(tkn, threaded=False)

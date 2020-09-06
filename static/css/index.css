@@ -84,10 +84,12 @@ button {
   padding: 14px 25px;
   text-align: center;
   font-size: 1.2rem;
-  
 }
 
-
+.container .content form a {color:#fff;}         /* Unvisited link  */
+.container .content form a:visited {color:#fff;} /* Visited link    */
+.container .content form a:hover {color:#fff;}   /* Mouse over link */
+.container .content form a:active {color:#fff;}  /* Selected link   */
 
 .container .content form a:hover {
   background:#9c4747 ;
