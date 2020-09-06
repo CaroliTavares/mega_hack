@@ -8,14 +8,12 @@
   Sua plataforma de direcionamento de mulheres no mercado tech.
 </h1>
 
-<h3 align="center">
-  O Back-End com flask python 3.6, O Front-End foi desenvolvido com HTML CSS Javascript. 
-</h3>
 <br>
 
 # :rocket: Sumário
 
 - Sobre
+- Layout
 - Intalação do Bot
 - Instalação do aplicativo
 - Contato
