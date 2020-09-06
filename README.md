@@ -7,10 +7,17 @@
 <h1 align="center">
   Sua plataforma de direcionamento de mulheres no mercado tech.
 </h1>
+<p align="center">
+  <img alt="contribuidores" src="https://img.shields.io/github/all-contributors/CaroliAgro/mega_hack?color=04D361">
+
+  <a href="https://github.com/Bonizario/ecoleta/stargazers">
+    <img alt="Stargazers" src="https://img.shields.io/github/stars/bonizario/ecoleta?style=social">
+  </a>
+</p>
 
 <br>
 
-# :rocket: Sumário
+# :pencil2: Sumário
 
 - Sobre
 - Layout
@@ -20,20 +27,18 @@
 
 <br />
 
-# :fallen_leaf: Sobre
+# :hibiscus: Sobre
 
 **Pandora Insights** é a primeira plataforma de acompanhamento e direcionamento de mulheres no mercado tech que alimenta currículos automaticamente por meio de uma assistente virtual. Essa assistente virtual faz a comunicação entre usuários(colaboradores e profissionais).Os colaboradores alimentam uma base de dados respondendo dúvidas frequentes de usuárias. Gerando respostas com caráter mais humano. Proporcionando escalabilidade para o sistema.Desta forma, potenciamos a capacidade de mulheres de promover a sua auto estima profissional de forma humanizada, rápida e eficaz. O chatbot está disponível no telegram. Assim incorporamos a nossa solução um aplicativo já consolidado o que gera acessibilidade e conforto para os usuários.
 
 Na página web, os usuários podem acessar como mulheres interessadas na área tech, como mentores ou como recrutadores:
 
-Quando escolhem o campo profissionais e mentores são direcionadas para o chatbot (DoraBot) do telegram.
+Quando escolhem o campo profissionais e mentores são direcionadas para o chatbot (DoraBot) do telegram..
 No campo recrutadores são direcionados para um conjutos de perfils de mulheres.
 
 <br />
 
 # :art: Layout
-
-O layout da aplicação está disponível no [Figma](https://www.figma.com/file/1SxgOMojOB2zYT0Mdk28lB/Ecoleta?node-id=136%3A546):
 
 ## Web
 
@@ -48,66 +53,33 @@ O layout da aplicação está disponível no [Figma](https://www.figma.com/file/
 
 <br />
 
-# :rocket: Tecnologias
+# :rocket: Instalação do Bot
 
-## Front end & Mobile
+- Faça o cadastro no telegram
+- Busque no campo de busca por: BotFather
+- Digite o comando /newbot e escolha um nome para o bot e um nome de usuário.
+- Copie o token de acesso que será informado pelo BotFather
+- Crie um ambiente virtual com a linguagem python 3.6
+- Acesse o ambiente criado
+- No terminal digite `pip install pyTelegramBot`
+- No Arquivo bot.py em tkn coloque o seu token de acesso
+- Execute o arquivo bot.py através de: `python bot.py`
 
-- [React](https://reactjs.org/)
-- [React Native](https://reactnative.dev/)
-- [Styled Components](https://styled-components.com/)
-- [Typescript](https://www.typescriptlang.org/)
-- [Leaflet](https://leafletjs.com/)
-- [React Leaflet](https://react-leaflet.js.org/)
-- [React Icons](https://react-icons.netlify.com/)
-- [React Dropzone](https://react-dropzone.js.org/)
-- [React Router](https://reacttraining.com/react-router/)
-- [Axios](https://github.com/axios/axios)
-- [Expo](https://expo.io/)
-- [VS Code][vc] com [EditorConfig][vceditconfig], [ESLint][vceslint] e [Prettier][vcprettier]
+# :rocket: Instalação do aplicativo
 
-## Back end
-
-- [Express](https://github.com/expressjs/express)
-- [Typescript](https://www.typescriptlang.org/)
-- [TS Node](https://github.com/TypeStrong/ts-node)
-- [Celebrate](https://github.com/arb/celebrate)
-- [Cors](https://www.npmjs.com/package/cors)
-- [Knex](http://knexjs.org/)
-- [SQLite3](https://www.npmjs.com/package/sqlite3)
-- [Multer](https://github.com/expressjs/multer)
-- [VS Code][vc] com [EditorConfig][vceditconfig], [ESLint][vceslint] e [Prettier][vcprettier]
-
-<br />
-
-# :speech_balloon: Como contribuir
-
-Caso queira contribuir para esse repositório, seja corrigindo bugs, adicionando comentários ou novas features, você pode seguir esse tutorial abaixo:
-
-- Faça um **[fork](https://help.github.com/pt/github/getting-started-with-github/fork-a-repo)** desse repositório
-- **[Clone](https://help.github.com/pt/github/creating-cloning-and-archiving-repositories/cloning-a-repository)** o repositório que você fez o fork
-- Crie uma branch com a sua feature: `git checkout -b minha-alteracao`
-- Envie suas alterações para a _staging area_: `git add .`
-- Faça um commit contando o que você fez: `git commit -m "feat: minha nova alteracao!"`
-- Faça um push para a sua branch: `git push origin minha-alteracao`
-- Agora é só abrir a sua _Pull Request_ no repositório que você fez o fork!
-
-_Caso tenha alguma dúvida, confira este [guia de como contribuir no GitHub](https://github.com/firstcontributions/first-contributions/blob/master/translations/README.pt_br.md) :)_
-
-<br />
-
-# :memo: License
-
-Esse projeto está sob a licença MIT. Consulte [LICENSE](https://github.com/Bonizario/ecoleta/blob/master/LICENSE) para mais informações.
+- Crie um ambientevirtual na linguagem python 3.6
+- Instale os requirements com o comando: `pip install -r requirements`
+- Execute o arquivo app.py através de: `python app.py`
 
 <br />
 
 # :postbox: Contato
 
-Desenvolvido por **Gabriel Bonizário** 👋🏻
+Desenvolvido por **Carolina Tavares** 👋🏻
 
-**Linkedin**: [gabriel-bonizario](https://www.linkedin.com/in/gabriel-bonizario/)
+**Linkedin**: [carolina-tavares](https://www.linkedin.com/in/carolina-tavares-de-oliveira/)
 
-**Email**: gabrielbonizario98@gmail.com
+**Email**: caroli.agro@gmail.com
 
 ---
 
