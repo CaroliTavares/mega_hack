@@ -9,16 +9,14 @@
 </h1>
 
 <h3 align="center">
-  Aqui foi desenvolvido o Back-End com flask python 3.6. 
+  O Back-End com flask python 3.6, O Front-End foi desenvolvido com HTML CSS Javascript. 
 </h3>
+# :rocket: Sumário
 
-<p align="center">
- 
-  <a href="https://www.linkedin.com/in/carolina-tavares-de-oliveira/">
-    <img alt="Made by carolina-tavares" src="https://img.shields.io/badge/made%20by-gabriel%20bonizario-04D361">
-  </a>
-
-</p>
+- [Sobre]
+- [Intalação do Bot]
+- [Instalação do aplicativo]
+- [Contato]
 
 <br />
 
