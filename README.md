@@ -22,9 +22,9 @@
 
 # :hibiscus: Sobre
 
-**Pandora Insights** é a primeira plataforma de acompanhamento e direcionamento de mulheres no mercado tech que alimenta currículos automaticamente por meio de uma assistente virtual. Essa assistente virtual faz a comunicação entre usuários(colaboradores e profissionais).Os colaboradores alimentam uma base de dados respondendo dúvidas frequentes de usuárias. Gerando respostas com caráter mais humano. Proporcionando escalabilidade para o sistema.Desta forma, potenciamos a capacidade de mulheres de promover a sua auto estima profissional de forma humanizada, rápida e eficaz. O chatbot está disponível no telegram. Assim incorporamos a nossa solução um aplicativo já consolidado o que gera acessibilidade e conforto para os usuários.
+**Pandora Insights** é a primeira plataforma de acompanhamento e direcionamento de mulheres no mercado tech que alimenta currículos automaticamente por meio de uma assistente virtual. Essa assistente virtual faz a comunicação entre usuários(colaboradores e profissionais). Os colaboradores alimentam uma base de dados respondendo dúvidas frequentes de usuárias. Gerando respostas com caráter mais humano. Proporcionando escalabilidade para o sistema.Desta forma, potenciamos a capacidade de mulheres de promover a sua auto estima profissional de forma humanizada, rápida e eficaz. O chatbot está disponível no telegram. Assim incorporamos a nossa solução um aplicativo já consolidado o que gera acessibilidade e conforto para os usuários.
 
-Os usuários podem acessar como mulheres interessadas na área tech, como mentores ou como recrutadores. Quando escolhem o campo profissionais e mentores são direcionadas para o chatbot (DoraBot) do telegram..
+Os usuários podem acessar como mulheres interessadas na área tech, como mentores ou como recrutadores. Quando escolhem o campo profissionais e mentores são direcionadas para o chatbot (DoraBot) do telegram.
 No campo recrutadores são direcionados para um conjutos de perfils de mulheres.
 
 <br />
@@ -58,7 +58,7 @@ No campo recrutadores são direcionados para um conjutos de perfils de mulheres.
 
 # :space_invader: Instalação do aplicativo
 
-- Crie um ambientevirtual na linguagem python 3.6.
+- Crie um ambiente virtual na linguagem python 3.6.
 - Instale os requirements com o comando: `pip install -r requirements`.
 - Execute o arquivo app.py através de: `python app.py`.
 
