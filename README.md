@@ -5,50 +5,31 @@
 <br />
 
 <h1 align="center">
-  Seu marketplace de coleta de resíduos
+  Sua plataforma de direcionamento de mulheres no mercado tech.
 </h1>
 
 <h3 align="center">
-  Back end, front end e mobile desenvolvidos do zero com frameworks e bibliotecas modernos durante a 1ª Next Level Week
+  Aqui foi desenvolvido o Back-End com flask python 3.6. 
 </h3>
 
 <p align="center">
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/Bonizario/ecoleta?color=04D361">
-
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/bonizario/ecoleta?color=04D361">
-
-  <a href="https://www.linkedin.com/in/gabriel-bonizario/">
-    <img alt="Made by gabriel-bonizario" src="https://img.shields.io/badge/made%20by-gabriel%20bonizario-04D361">
+ 
+  <a href="https://www.linkedin.com/in/carolina-tavares-de-oliveira/">
+    <img alt="Made by carolina-tavares" src="https://img.shields.io/badge/made%20by-gabriel%20bonizario-04D361">
   </a>
 
-  <a href="https://github.com/bonizario/ecoleta/commits/master">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/bonizario/ecoleta?color=04D361">
-  </a>
-
-  <a href="https://github.com/Bonizario/ecoleta/blob/master/LICENSE">
-    <img alt="License" src="https://img.shields.io/github/license/bonizario/ecoleta?color=322153">
-  </a>
-
-  <a href="https://github.com/Bonizario/ecoleta/stargazers">
-    <img alt="Stargazers" src="https://img.shields.io/github/stars/bonizario/ecoleta?style=social">
-  </a>
 </p>
 
 <br />
 
 # :fallen_leaf: Sobre
 
-**Ecoleta** é uma aplicação criada para ajudar pessoas a encontrarem empresas e pontos de coleta para reciclagem.
+**Pandora Insights** é a primeira plataforma de acompanhamento e direcionamento de mulheres no mercado tech que alimenta currículos automaticamente por meio de uma assistente virtual. Essa assistente virtual faz a comunicação entre usuários(colaboradores e profissionais).Os colaboradores alimentam uma base de dados respondendo dúvidas frequentes de usuárias. Gerando respostas com caráter mais humano. Proporcionando escalabilidade para o sistema.Desta forma, potenciamos a capacidade de mulheres de promover a sua auto estima profissional de forma humanizada, rápida e eficaz. O chatbot está disponível no telegram. Assim incorporamos a nossa solução um aplicativo já consolidado o que gera acessibilidade e conforto para os usuários.
 
-Esse app foi desenvolvido durante a primeira **NLW - Next Level Week** ministrada pela [Rocketseat](https://rocketseat.com.br/). O propósito desse evento é de acelerar a evolução dos devs, auxiliando no desenvolvimento técnico e pessoal com uma stack poderosa e moderna.
+Na página web, os usuários podem acessar como mulheres interessadas na área tech, como mentores ou como recrutadores:
 
-Na página web, as empresas e entidades poderão cadastrar informações como:
-
-- Imagem do ponto de coleta
-- Nome, email, whatsapp, estado e cidade
-- Itens de coleta
-
-No aplicativo mobile, os usuários poderão navegar pelo mapa para encontrarem instituições próximas e entrar em contato via e-mail ou whatsapp.
+Quando escolhem o campo profissionais e mentores são direcionadas para o chatbot (DoraBot) do telegram.
+No campo recrutadores são direcionados para um conjutos de perfils de mulheres.
 
 <br />
 
@@ -60,25 +41,10 @@ O layout da aplicação está disponível no [Figma](https://www.figma.com/file/
 
 <table cellspacing="0" cellpadding="0">
   <tr>
-    <td><img alt="NextLevelWeek" src="assets/home.png" /></td>
-    <td rowspan="3"><img alt="NextLevelWeek" src="assets/register.png" /></td>
-  </tr>
-  <tr>
-    <td><img alt="NextLevelWeek" src="assets/search.png" /></td>
-  </tr>
-  <tr>
-    <td><img alt="NextLevelWeek" src="assets/index.png" /></td>
-  </tr>
-</table>
-
-## Mobile
-
-<table cellspacing="0" cellpadding="0">
-  <tr>
-    <td><img alt="NextLevelWeek" src="assets/mobile-start.png" /></td>
-    <td><img alt="NextLevelWeek" src="assets/mobile-home.png" /></td>
-    <td><img alt="NextLevelWeek" src="assets/mobile-details.png" /></td>
-    <td><img alt="NextLevelWeek" src="assets/mobile-splash.png" /></td>
+    <td><img alt="NextLevelWeek" src="/static/img/telaapp.png"/></td>
+    <td><img alt="NextLevelWeek" src="/static/img/telaapp2.png" /></td>
+    <td><img alt="NextLevelWeek" src="/static/img/telaapp3.png" /></td>
+    <td><img alt="NextLevelWeek" src="/static/img/telainicial.png" /></td>
   </tr>
 </table>
 
