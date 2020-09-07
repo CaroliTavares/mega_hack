@@ -44,7 +44,7 @@ No campo recrutadores são direcionados para um conjutos de perfils de mulheres.
 
 <br />
 
-# :space_invader: Instalação do Bot
+# :space_invader: Instalação da assistente virtual
 
 - Faça o cadastro no telegram.
 - Busque no campo de busca por: BotFather.
