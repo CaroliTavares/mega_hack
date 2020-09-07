@@ -7,7 +7,7 @@ import time
 import requests
 import json
 
-tkn = '1204137702:AAGe3J321YzM21bKj5nLphLF8aDNYmSaOBY'
+tkn = 'COLOQUEOTOKEN'
 BASE_URL = 'https://megawomen.herokuapp.com/'
 
 # Criando o objeto bot com o token definido
