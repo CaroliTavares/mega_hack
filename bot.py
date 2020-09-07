@@ -7,7 +7,7 @@ import time
 import requests
 import json
 
-tkn = '1394002602:AAEIveH375tcPi7FTaTsZjCjOAw_3l30dOc'
+tkn = '1204137702:AAGe3J321YzM21bKj5nLphLF8aDNYmSaOBY'
 BASE_URL = 'https://megawomen.herokuapp.com/'
 
 # Criando o objeto bot com o token definido
@@ -239,6 +239,13 @@ def teste(message):
 def consultar(message):
     bot.send_message(
         message.chat.id, "Olá o stackoverflow é um ótimo fórum de pra auxiliar com dúvidas de programação.")
+
+
+@bot.message_handler(commands=['enviar'])
+def activate_pergunta_da_garota(message):
+    chat_id = message.chat.id
+    msg = "Deseja enviar dados para recrutadores?"
+    bot.send_message(chat_id, msg)
 
 
 bot.enable_save_next_step_handlers(delay=2)
