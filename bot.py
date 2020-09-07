@@ -8,7 +8,7 @@ import requests
 import json
 
 tkn = 'COLOQUEOTOKEN'
-BASE_URL = 'https://womentech.herokuapp.com/'
+BASE_URL = 'http://localhost:5000/'
 
 # Criando o objeto bot com o token definido
 bot = telebot.TeleBot(tkn, threaded=False)
